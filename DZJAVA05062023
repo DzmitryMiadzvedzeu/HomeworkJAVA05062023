@@ -1,0 +1,20 @@
+package homework05062023;
+
+import java.util.Scanner;
+
+public class Dz05062023 {
+    public static void main(String[] args) {
+        Scanner sk = new Scanner(System.in);
+
+        System.out.println("Enter please any integer A: ");
+        int a = sk.nextInt();
+
+        System.out.println(a);  // десятичная
+        System.out.println(Integer.toOctalString(a));  // восьмеричная
+        System.out.println(Integer.toBinaryString(a));  // двоичная
+        System.out.println(Integer.toHexString(a));  // шестнадцатиричная
+
+        sk.close();
+    }
+
+}
